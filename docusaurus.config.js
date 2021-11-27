@@ -12,10 +12,15 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.jpg',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
+  i18n: {
+    defaultLocale: 'zh-CN',
+    locales: ['zh-CN', 'en', 'fr', 'de', 'ja', 'ko', 'ru'],
+  },
+  
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -42,11 +47,17 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      algolia: {
+        appId: 'X1Z85QJPUV',
+        apiKey: 'bf7211c161e8205da2f933a02534105a',
+        indexName: 'docusaurus-2',
+      },
+
       navbar: {
-        title: '川渝文化',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.jpg',
         },
         items: [
           {
@@ -73,13 +84,41 @@ const config = {
               {
                 label: '🎶 戏曲',
                 to: 'music'
-              }
+              },
+              {
+                label: '🀄️️  方言',
+                to: 'dialect'
+              },
+              {
+                label: '🏠  建筑',
+                to: 'building'
+              },
+              {
+                label: '🤝  风俗',
+                to: 'custom'
+              },
             ]
           },
           {
             label: '资源概览',
             to: 'resources'
-          }
+          },
+          {
+            label: '档案征集',
+            to: 'levy'
+          },
+          {
+            label: '联系我们',
+            to: 'contact'
+          },
+          {
+            label: '预约进馆',
+            to: 'reserve'
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
         ],
       },
       footer: {
