@@ -66,10 +66,9 @@ const config = {
             position: 'right'
           },
           {
-            type: 'doc',
-            docId: 'intro',
             position: 'left',
             label: '服务指南',
+            to: 'https://www.archives.sdu.edu.cn/fwzn/bgly.htm'
           },
           {to: '/blog', label: '工作概况', position: 'left'},
           {
@@ -101,7 +100,7 @@ const config = {
           },
           {
             label: '资源概览',
-            to: 'resources'
+            to: 'https://www.bjmem.com.cn/#/indexes?en=Index&id=3&isDelete=0&status=0&tlevel=1&type=J'
           },
 
           {
