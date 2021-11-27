@@ -103,17 +103,14 @@ const config = {
             label: '资源概览',
             to: 'resources'
           },
+
           {
-            label: '档案征集',
-            to: 'levy'
+            label: '用户平台',
+            to: 'users'
           },
           {
-            label: '联系我们',
-            to: 'contact'
-          },
-          {
-            label: '预约进馆',
-            to: 'reserve'
+            label: '管理平台',
+            to: 'manage'
           },
           {
             type: 'localeDropdown',
@@ -134,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 山东大学川渝文化数字档案馆.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 川渝文化数字档案馆.`,
       },
       prism: {
         theme: lightCodeTheme,
