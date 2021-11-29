@@ -1,0 +1,1 @@
+<figure><img src="/img/eating/2.png" /><figcaption>麻辣串串</figcaption></figure>

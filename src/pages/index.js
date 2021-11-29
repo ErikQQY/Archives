@@ -4,11 +4,8 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
 import useBaseUrl from '@docusaurus/useBaseUrl'
-import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
-import { typography } from '@material-ui/system'
 
 
 function HomepageHeader() {

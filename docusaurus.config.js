@@ -100,7 +100,7 @@ const config = {
           },
           {
             label: '资源概览',
-            to: 'https://www.bjmem.com.cn/#/indexes?en=Index&id=3&isDelete=0&status=0&tlevel=1&type=J'
+            to: 'resources'
           },
 
           {
